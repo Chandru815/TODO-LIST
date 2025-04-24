@@ -16,6 +16,7 @@ var input=document.getElementById("todoInput");
        
 
     }
+    //this function will delete the list item when the delete button is clicked
    function deleteItem(event){
         event.target.parentElement.remove();  //this will remove the list item when the delete button is clicked and the paraelemnt is used to dlt the list tag instead of button tag
    }
